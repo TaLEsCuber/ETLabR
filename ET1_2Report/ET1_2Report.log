@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  4 MAR 2024 21:33
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  4 MAR 2024 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1435,14 +1435,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `ET1_2Report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ET1_2Report.out':
-(rerunfilecheck)             Before: EA0830BD7C895096322AD7B58307AA92;2452
-(rerunfilecheck)             After:  A27734E7DC5641445B14DB6B76A58CF1;2431.
+Package rerunfilecheck Info: File `ET1_2Report.out' has not changed.
+(rerunfilecheck)             Checksum: A27734E7DC5641445B14DB6B76A58CF1;2431.
  ) 
 Here is how much of TeX's memory you used:
  38023 strings out of 476683
