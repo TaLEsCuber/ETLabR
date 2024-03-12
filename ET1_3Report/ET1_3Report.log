@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.15)  12 MAR 2024 11:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.15)  12 MAR 2024 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ET1_2Report.tex
-(./ET1_2Report.tex
+**ET1_3Report.tex
+(./ET1_3Report.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -1121,8 +1121,8 @@ File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count380
 ))
-(./ET1_2Report.aux)
-\openout1 = `ET1_2Report.aux'.
+(./ET1_3Report.aux)
+\openout1 = `ET1_3Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -1236,9 +1236,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 12.
-(./ET1_2Report.out) (./ET1_2Report.out)
+(./ET1_3Report.out) (./ET1_3Report.out)
 \@outlinefile=\write4
-\openout4 = `ET1_2Report.out'.
+\openout4 = `ET1_3Report.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1320,7 +1320,7 @@ Package fontspec Info: Font family 'SongtiSCLight(1)' created for font 'Songti
 (fontspec)             Light/BI/OT:language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-(./ET1_2Report.toc
+(./ET1_3Report.toc
 
 Package fontspec Warning: Font "Heiti SC Light" does not contain requested
 (fontspec)                Script "CJK".
@@ -1353,7 +1353,7 @@ Package fontspec Info: Font family 'HeitiSCLight(0)' created for font 'Heiti
 
 )
 \tf@toc=\write5
-\openout5 = `ET1_2Report.toc'.
+\openout5 = `ET1_3Report.toc'.
 
 
 
@@ -1374,11 +1374,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 103.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\heiti' on input line 103.
 
 
@@ -1392,9 +1387,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3
 
 ]
-File: ./images//ET1_2Gra1.png Graphic file (type bmp)
-<./images//ET1_2Gra1.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1404,46 +1396,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-File: ./images//ET1_2Gra3.png Graphic file (type bmp)
-<./images//ET1_2Gra3.png>
-File: ./images//ET1_2Gra4.png Graphic file (type bmp)
-<./images//ET1_2Gra4.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[6]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 293.
+(hyperref)                replaced by space on input line 226.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 293.
+(hyperref)                removing `\heiti' on input line 226.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1453,7 +1413,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8
+[5
 
 ]
 
@@ -1464,17 +1424,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9
+[6
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 370.
+(hyperref)                replaced by space on input line 303.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 370.
+(hyperref)                removing `\heiti' on input line 303.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1484,17 +1444,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10
+[7
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 418.
+(hyperref)                replaced by space on input line 351.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 418.
+(hyperref)                removing `\heiti' on input line 351.
 
 File: ./images//name.png Graphic file (type bmp)
 <./images//name.png>
@@ -1506,19 +1466,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11
+[8
 
-] (./ET1_2Report.aux)
-Package rerunfilecheck Info: File `ET1_2Report.out' has not changed.
-(rerunfilecheck)             Checksum: A1E0FBB2909595B71ADB74D8D1CD483C;2488.
+] (./ET1_3Report.aux)
+Package rerunfilecheck Info: File `ET1_3Report.out' has not changed.
+(rerunfilecheck)             Checksum: 0291A8CF599B8E98199244B907893858;2615.
  ) 
 Here is how much of TeX's memory you used:
- 38225 strings out of 476683
- 837464 string characters out of 5804046
- 1879018 words of memory out of 5000000
- 57833 multiletter control sequences out of 15000+600000
- 519265 words of font info for 94 fonts, out of 8000000 for 9000
+ 38061 strings out of 476683
+ 828613 string characters out of 5804046
+ 1881018 words of memory out of 5000000
+ 57673 multiletter control sequences out of 15000+600000
+ 519257 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,12n,107p,442b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,12n,107p,442b,966s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ET1_2Report.pdf (11 pages).
+Output written on ET1_3Report.pdf (8 pages).
