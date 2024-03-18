@@ -290,7 +290,7 @@
 	% ---
 	
 	% 小标题
-	\section{ETX 实验名称×××  \quad\heiti 实验记录}
+	\section{实验二\quad 基本电路元件伏安特性的测量  \quad\heiti 实验记录}
 	% ---
 	
 	% 实验过程记录
@@ -299,11 +299,81 @@
 	%
 	\subsubsection{操作步骤记录}
 	\begin{enumerate}
-		\item 
+		
+		\item 测试线性电阻元件的伏安特性
+		\begin{enumerate}
+			\item 用电压表和电流表分别采用方法一(电压表外接 法)和方法二(电流表外接法)的两种接线方法进行测试，比较测试结果。
+			\item 阈值设置：通过计算得到，当电阻两端功率不超过1W时，最大电压和电流分别为：
+			\begin{itemize}
+				\item $51\Omega$：$I_{max}=0.14A$，$U_{max}=7.14V$；
+				\item $120\Omega$：$I_{max}=0.09A$，$U_{max}=10.95V$；
+			\end{itemize}
+			\item 测试目的：观察外接法和内接法的测量效果哪一个更显著。
+			\item 线性电阻元件的伏安特性测量，分别采用方法一和方法二，电路如图所示。电压表 可不用固定接在电路中，电压表两端接专用带测试表笔的导线，测量时直接用测试表笔插到测试点既可。
+			\item 计算电阻值，是根据测量的电压、电流值进行计算，结果记入自拟表格中既可。
+		\end{enumerate}
+		
+		\item 测试非线性电阻 12V 白炽灯的伏安特性，测试电路参考线性电阻。
+		\begin{enumerate}
+			\item 阈值设置：最大电压不能超过 12V，防止功率过大，烧坏元件。小灯泡在模拟电路实验箱中。
+			\item 电路图如图所示。
+		\end{enumerate}
+		
+		\item 测试直流稳压电源（DP832 或 DP831）CH2 的伏安特性，设定电压 6.0V，限流 20mA，自行设计测试电路。
+		\begin{enumerate}
+			\item 测量原理：利用电压表测电阻两端电压，也是源两端电压；然后利用电压除以电阻箱已知电阻计算电流，从而完成对伏安特性的测量。
+			\item 电路图如图所示。
+			\item 阈值设置：
+		\end{enumerate}
+		
+		\item 测试数控恒流源（DCS-01）的伏安特性，设定电流 1mA，自行设计测试电路。
+		\begin{enumerate}
+			\item 测量原理：利用电压表测电阻两端电压，也是源两端电压；然后利用电压除以电阻箱已知电阻计算电流，从而完成对伏安特性的测量。
+			\item 电路图如图所示。
+			\item 阈值设置
+		\end{enumerate}
+		
+		\item 电流控制电压源（CCVS）基本特性测试
+		\begin{enumerate}
+			\item 输出特性。使 CCVS 控制电流 \(I_1=100\mu A\)（不能超过 \(1mA\)），负载电阻分别为 \(1K\Omega\)、\(3K\Omega\)、\(5K\Omega\) 时，用万用表测量输出电压 \(U_2\) 和输出电流 \(I_2\)，将数据填入表中。
+			\item 转移特性及输入特性。使 CCVS 负载 \(RL = 2K\Omega\)，改变控制量 \(I_1\) 大小，用万用表测量控制端电压 \(U_1\) 及输出电压 \(U_2\)，记录数据。
+		\end{enumerate}
+		
+		\item 电压控制电流源（VCCS）基本特性测试
+		\begin{enumerate}
+			\item 输出特性。使 VCCS 控制电压 \(U_1=2V\)，负载电阻分别为 \(100\Omega\)、\(300\Omega\)、\(500\Omega\) 时，用万用表测量输出电流 \(I_2\) 及输出电压 \(U_2\)，记录数据。
+			\item 转移特性及输入特性。使 VCCS 负载 \(RL = 400\Omega\)，改变控制量 \(U_1\) 大小，测量控制端电流 \(I_1\) 及输出电流 \(I_2\)，记录数据。
+		\end{enumerate}
 	\end{enumerate}	
 	
 	%
-	\subsubsection{}
+	\subsubsection{实验数据记录}
+	\begin{enumerate}
+		\item 测试线性电阻元件的伏安特性
+		
+		实验数据如表所示。
+		
+		\item 测试非线性电阻 12V 白炽灯的伏安特性
+		
+		实验数据如表所示。
+		
+		\item 测试直流稳压电源（DP832 或 DP831）CH2 的伏安特性
+		
+		实验数据如表所示。
+		
+		\item 测试数控恒流源（DCS-01）的伏安特性
+		
+		实验数据如表所示。
+		
+		\item 电流控制电压源（CCVS）基本特性测试
+		
+		实验数据如表所示。
+		
+		\item 电压控制电流源（VCCS）基本特性测试
+		
+		实验数据如表所示。
+	\end{enumerate}
+	
 	\begin{enumerate}
 		\item \begin{table}[h]
 			\centering
@@ -332,7 +402,35 @@
 	% 原始数据
 	\clearpage
 	\subsection{原始数据记录}
-	实验记录本上的原始数据见%\cref{}（签字）。
+	实验记录本上的原始数据见\cref{fig:figdata-1}、\cref{fig:figdata-2}、\cref{fig:figdata-3}和\cref{fig:figdata-4}（签字）。
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.5 \textwidth]{ET1_2Gradata-1.png}
+		\caption{原始数据1}
+		\label{fig:figdata-1}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.5 \textwidth]{ET1_2Gradata-2.png}
+		\caption{原始数据2}
+		\label{fig:figdata-2}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.5 \textwidth]{ET1_2Gradata-3.png}
+		\caption{原始数据3}
+		\label{fig:figdata-3}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.5 \textwidth]{ET1_2Gradata-4.png}
+		\caption{原始数据4}
+		\label{fig:figdata-4}
+	\end{figure}
 	
 	实验台桌面整理见%\textbf{附件}部分(\cref{})。
 	
@@ -367,46 +465,69 @@
 	% ---
 	
 	% 小标题
-	\section{ETX 实验名称××× \quad\heiti 分析与讨论}
+	\section{实验二\quad 基本电路元件伏安特性的测量 \quad\heiti 分析与讨论}
 	% ---
 	
 	% 数据处理
 	\subsection{实验数据分析}
 	
 	%
-	\subsubsection{}
+	\subsubsection{各种元件的伏安特性曲线}
 	\begin{enumerate}
-		\item 
+		\item 测试线性电阻元件的伏安特性
+		\begin{enumerate}
+			\item 根据实验所测得到的数据，作出两个不同阻值电阻的伏案特性曲线，如图所示。
+			
+			\item 根据各图的伏安特性曲线，可以通过斜率得到各电阻的实验测定值如表所示，进一步分析见下一个小节。
+		\end{enumerate}
+				
+		\item 测试非线性电阻 12V 白炽灯的伏安特性
+		\begin{enumerate}
+			\item 根据实验所测得到的数据，白炽灯的伏安特性曲线作图如图所示。
+			
+			\item 分析
+		\end{enumerate}
+				
+		\item 测试直流稳压电源（DP832 或 DP831）CH2 的伏安特性
+		\begin{enumerate}
+			\item 根据实验所测得到的数据，直流稳压电源的伏安特性曲线作图如图所示。
+			
+			\item 达到阈值以前：
+			
+			\item 达到阈值后，该元件变为一个CCVS：
+		\end{enumerate}
+				
+		\item 测试数控恒流源（DCS-01）的伏安特性
+		\begin{enumerate}
+			\item 根据实验所测得到的数据，数控恒流源的伏安特性曲线作图如图所示。
+			
+			\item 达到阈值前异常段分析：
+			
+			\item 达到阈值前：
+			
+			\item 达到阈值后，该元件变为一个VCCS：
+		\end{enumerate}
+		
 	\end{enumerate}
 	
 	%
-	\subsubsection{}
+	\subsubsection{关于外接法与内接法的数据分析}
 	\begin{enumerate}
+		\item 外接法内接法的误差分析
+		
 		\item 
+		
+		\item 关于电源的外接内接和演变方法的讨
 	\end{enumerate}
 	
+	
 	%
-	\subsubsection{}
+	\subsubsection{受控源的特性}
 	
 	% ---
 	
 	% 实验后思考题
-	\subsection{实验后思考题}
-	
-	%思考题1
-	\begin{question}
-		
-	\end{question}
-	
-	% 思考题2
-	\begin{question}
-		
-	\end{question}
-	
-	% 思考题3
-	\begin{question}
-		
-	\end{question}
+%	\subsection{实验后思考题}
 	
 	% ---
 	
@@ -415,7 +536,7 @@
 	\clearpage
 	
 	% 小标题
-	\section{ETX 实验名称××× \quad\heiti 结语}
+	\section{实验二\quad 基本电路元件伏安特性的测量× \quad\heiti 结语}
 	% ---
 	
 	% 总结、杂谈与致谢
