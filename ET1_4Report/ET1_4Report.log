@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  18 MAR 2024 14:28
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  18 MAR 2024 21:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1056,14 +1056,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[2]
-
 Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
 (fontspec)             exist).
 
@@ -1127,7 +1119,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3
+[2
 
 ]
 
@@ -1146,17 +1138,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4
+[3
 
 ]
+File: ./images//graph1.png Graphic file (type bmp)
+<./images//graph1.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 184.
+(hyperref)                replaced by space on input line 216.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 184.
+(hyperref)                removing `\heiti' on input line 216.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1181,11 +1184,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 261.
+(hyperref)                replaced by space on input line 293.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 261.
+(hyperref)                removing `\heiti' on input line 293.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1200,11 +1203,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 10.95pt
-(hyperref)                replaced by space on input line 309.
+(hyperref)                replaced by space on input line 341.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heiti' on input line 309.
+(hyperref)                removing `\heiti' on input line 341.
 
 File: ./images//name.png Graphic file (type bmp)
 <./images//name.png>
@@ -1221,14 +1224,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `ET1_4Report.out' has not changed.
-(rerunfilecheck)             Checksum: A27734E7DC5641445B14DB6B76A58CF1;2431.
+
+Package rerunfilecheck Warning: File `ET1_4Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ET1_4Report.out':
+(rerunfilecheck)             Before: 5715E37FB2CA327484BFC52CF6A754DC;2465
+(rerunfilecheck)             After:  3EE09CD8D84890507BC9D0E3F515E248;2567.
  ) 
 Here is how much of TeX's memory you used:
- 38011 strings out of 476683
- 821434 string characters out of 5807576
- 1880012 words of memory out of 5000000
- 57636 multiletter control sequences out of 15000+600000
+ 38046 strings out of 476683
+ 823185 string characters out of 5807576
+ 1882012 words of memory out of 5000000
+ 57670 multiletter control sequences out of 15000+600000
  519201 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,12n,107p,438b,966s stack positions out of 10000i,1000n,20000p,200000b,200000s
